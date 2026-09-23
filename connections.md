@@ -32,6 +32,20 @@ These are static, hand-maintained strings — there is no live API call to any
 of these sources. If the app ever adds a "check for updated health content"
 feature, it would be a new integration and belongs here.
 
+## Source repository
+
+GitHub: https://github.com/samarthshetty9/QuitQuest (`origin`, default branch
+`main`). No CI/Actions configured yet.
+
+## Design source
+
+Google Stitch project "Quit Smoking App Redesign"
+(`projects/1296704631939885018`) holds the onboarding screen designs
+("Midnight Arcade" design system). Accessible via the Stitch MCP tools; the
+onboarding components in `src/components/onboarding/arcade/` are ported from
+those screens' HTML by hand — there's no automated sync, so re-pull and
+re-port after design edits there.
+
 ## Deploy pipeline
 
 None configured yet. The app is a standard Next.js app
